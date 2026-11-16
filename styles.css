@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+html { color: #252c26; background: #f5f1e7; }
+body { max-width: 48rem; margin: 0 auto; padding: 2rem 1.25rem 3rem; font: 1.125rem/1.65 system-ui, sans-serif; overflow-wrap: break-word; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-bottom: 1.25rem; border-bottom: 1px solid #d8d1c4; }
+a { color: #a73224; text-underline-offset: 0.2em; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.brand { color: #252c26; font: bold 1.5rem Georgia, serif; text-decoration: none; }
+h1 { margin: 2rem 0 1.5rem; font: 600 clamp(2rem, 6vw, 2.75rem)/1.2 Georgia, serif; }
+p { margin: 0 0 1.25rem; }
+nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid #d8d1c4; font-size: 1rem; }
